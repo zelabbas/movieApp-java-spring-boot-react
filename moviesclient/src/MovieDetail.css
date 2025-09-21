@@ -1,0 +1,67 @@
+
+.movie-detail-page {
+  background: #23272f;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.movie-detail-main {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.detail-poster-large {
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+.movie-detail-info {
+  flex: 1;
+  text-align: left;
+}
+
+.backdrops-gallery {
+  margin-bottom: 2rem;
+}
+
+.backdrops-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.backdrop-img-large {
+  width: 220px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.15);
+}
+
+.reviews {
+  margin-top: 1.5rem;
+}
+
+.review {
+  background: #333;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.review-date {
+  display: block;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 0.2rem;
+}
